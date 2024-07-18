@@ -83,17 +83,4 @@ me fue mas viable avanzar estos tres puntos a la vez que hacerlos uno por uno.
 # Sección 2: Creación de una API
 Creé una clase con metodos para calcular el numero faltante de un conjunto de los primeros 100 números, decidí usar archivos JSON para mantener la logica del API a no permitir extraer el mismo numero mas de una vez. 
 
-## Contenido del Repositorio
 
-- `conjunto.py`: Clase en Python que representa un conjunto de los primeros 100 números naturales y permite extraer un número.
-- `cargar_datos.py`: Script para cargar y transformar datos en MongoDB.
-- `crear_vista.py`: Script para crear una vista en MongoDB.
-- `requirements.txt`: Lista de dependencias necesarias para el proyecto.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Por favor, haz un fork del repositorio y envía un pull request con tus cambios.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Para más información, consulta el archivo `LICENSE`.
