@@ -18,7 +18,7 @@ Dejo aquí la tabla que se me pide un un punto mas abajo.
 ## Configuración del Entorno
 
 1. **Clonar el repositorio**
-   - Clona este repositorio en tu máquina local usando:
+   - Clona el repositorio en la pc local usando:
      ```bash
      git clone https://github.com/Aaronorozr/PruebaT.git
 
