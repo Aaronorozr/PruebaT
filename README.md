@@ -67,7 +67,7 @@ Dejo aquí la tabla que se me pide un un punto mas abajo.
      python conjunto.py 42
      ```
 
-## Uso del Proyecto
+## Uso del Proyecto y respuestas
 
 # Sección 1: Procesamiento y transferencia de datos
 Objetivo: Crear un proceso con las herramientas disponibles por el usuario
