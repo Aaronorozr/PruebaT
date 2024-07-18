@@ -16,7 +16,7 @@ Este repositorio incluye la transformacion de un archivo .csv a sqlite, la limpi
 1. **Clonar el repositorio**
    - Clona este repositorio en tu máquina local usando:
      ```bash
-     git clone [<URL_DEL_REPOSITORIO>](https://github.com/Aaronorozr/PruebaT.git)
+     git clone https://github.com/Aaronorozr/PruebaT.git
 
 2. **Crear un entorno virtual**
    - Crea un nuevo entorno virtual en el directorio del proyecto:
@@ -40,15 +40,6 @@ Este repositorio incluye la transformacion de un archivo .csv a sqlite, la limpi
      pip install -r requirements.txt
      ```
 
-## Uso del Proyecto
-
-
-### Ejecutar la Clase en Python
-
-1. **se puede ejecutar el script `cien.py` para extraer un número de un conjunto de los primeros 100 números naturales. Por ejemplo:
-     ```bash
-     python conjunto.py 42
-     ```
 ### transformar el archivo data_prueba_tecnica.csv a SQLlite
 1. - Ejecuta el script que transforma a SQLlite:
      ```bash
@@ -68,6 +59,28 @@ Este repositorio incluye la transformacion de un archivo .csv a sqlite, la limpi
      ```bash
      python crear_vista.py
      ```
+### Ejecutar la Clase en Python
+
+1. **se puede ejecutar el script `cien.py` para extraer un número de un conjunto de los primeros 100 números naturales. Por ejemplo:
+     ```bash
+     python conjunto.py 42
+     ```
+
+## Uso del Proyecto
+
+# Sección 1: Procesamiento y transferencia de datos
+Objetivo: Crear un proceso con las herramientas disponibles por el usuario
+## 1.1 Carga de información
+Decidí transportar los datos a SQLlite para poder tener un mayor control a la hora de pruebas rapidas con la herramienta DB BROUSER SQLlite, ya que posteiormente pasaria la base de datos a una mas robusta (MongoDB).
+## 1.2, 1.3 y 1.4 Extracción, Transformación y Disperción.
+Hice el procedimiento de extracción de SQLlite directamente a mongo db, limpiando los datos y transformandolos al esquema que se me propuso, tuve bastantes inconvenientes, los nombres de las compañias estaban incorrectos, a pesar de ser solo dos compañias me tuve que asegurar que en la tabla companies de mongodb solo aparecieran las dos, añadiendo logica al script de python, el amount tenia problemas a la hora de convertir los valores debido a numeros muy altos y valores con notacion cientifica, las fechas tenian valores incorrectos para timestamp, al final usé datatime,
+me fue mas viable avanzar estos tres puntos a la vez que hacerlos uno por uno.
+
+## 1.5 SQL
+   Diseñé una vista para ver el monto total transaccionado por día para las diferentes compañías.
+
+# Sección 2: Creación de una API
+Creé una clase con metodos para calcular el numero faltante de un conjunto de los primeros 100 números, decidí usar archivos JSON para mantener la logica del API a no permitir extraer el mismo numero mas de una vez. 
 
 ## Contenido del Repositorio
 
