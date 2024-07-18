@@ -29,10 +29,7 @@ Este repositorio incluye la transformacion de un archivo .csv a sqlite, la limpi
      ```bash
      venv\Scripts\activate
      ```
-   - En macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
+
 
 4. **Instalar las dependencias**
    - Instala las dependencias listadas en el archivo `requirements.txt`:
