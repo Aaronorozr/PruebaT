@@ -2,6 +2,9 @@
 
 Este repositorio incluye la transformacion de un archivo .csv a sqlite, la limpieza de los datos, la relacion de cargos con compañias, la creación de vistas y la implementación de una clase en Python para calcular el número faltante de un conjunto de los primeros 100 números naturales.
 
+![image](https://github.com/user-attachments/assets/ffc9d671-44ce-43a9-95a3-e1642f9b6358)
+
+
 ## Requisitos Previos
 
 1. **Instalar MongoDB**
